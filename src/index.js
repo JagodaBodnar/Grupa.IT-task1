@@ -13,6 +13,9 @@ const generateArray = ({size, minValue, maxValue}) => {
     if (minValue > maxValue) {
         throw new Error("Wrong range");
     }
+    if(size <= 0){
+        throw new Error("Wrong size");
+    }
     return Array(size)
         .fill(0)
         .map(item => generateRandom(minValue, maxValue))
