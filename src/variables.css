@@ -1,0 +1,9 @@
+:root {
+    --background-color: #fff;
+    --button-border: #69b6f0;
+    --text-color: #343a40;
+    --button-text: var(--button-border);
+    --button-box-shadow-color: var(--button-border);
+    --button-background-hover: var(--button-border);
+    --button-hover-text: var(--background-color);
+}
