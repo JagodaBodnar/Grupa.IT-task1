@@ -49,7 +49,10 @@ ul > li {
 }
 
 @media only screen and (max-device-width: 600px) {
-    button, h2, ul > li {
+    button, h2 {
         font-size: 3rem;
+    }
+    ul > li,ul{
+        font-size: 2rem;
     }
 }
