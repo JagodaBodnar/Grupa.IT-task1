@@ -32,10 +32,10 @@ const separateNumbers = (array) => {
     const oddNumbers = array.filter(item => item % 2 !== 0)
     document.querySelectorAll("li").forEach(item => item.remove())
     evenNumbers.map(item => {
-        ulEvenNumbers.appendChild(document.createElement("li")).innerHTML = `${item}`
+        ulEvenNumbers.appendChild(document.createElement("li")).textContent = `${item}`
     })
     oddNumbers.map(item => {
-        ulOddNumbers.appendChild(document.createElement("li")).innerHTML = `${item}`
+        ulOddNumbers.appendChild(document.createElement("li")).textContent = `${item}`
     })
 }
 
